@@ -1,0 +1,4005 @@
+[
+  {
+    "idx": 655,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Thin liquid reserves and adverse credit history outweigh otherwise stable employment and housing.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent credit record and resolve prior critical account issues",
+        "build savings well above 100 DM before applying",
+        "open and maintain a checking account with stable inflows",
+        "reduce existing credits at this bank before taking another loan"
+      ]
+    }
+  },
+  {
+    "idx": 115,
+    "group": "random",
+    "score": 33.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 33,
+      "reason": "Strong job stability and asset ownership offset the overdrawn checking account and thinner liquid reserves.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring the checking account balance above zero and keep it stable",
+        "build higher liquid savings well above 1000 DM",
+        "provide a guarantor or additional debtor support",
+        "maintain the same long employment record and repayment history"
+      ]
+    }
+  },
+  {
+    "idx": 26,
+    "group": "random",
+    "score": 28.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 28,
+      "reason": "Very small, short-term loan with strong repayment history and home ownership offsets weak liquidity.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build liquid reserves in checking and savings",
+        "move from unskilled resident to a more stable skilled job",
+        "extend Present employment beyond four years",
+        "reduce reliance on existing bank credit"
+      ]
+    }
+  },
+  {
+    "idx": 760,
+    "group": "random",
+    "score": 46.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 46,
+      "reason": "Very small, short-term loan is affordable, but weak liquid assets and adverse credit history raise meaningful risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing or resolving existing problem accounts",
+        "build Checking account and Savings / bonds balances before applying",
+        "reduce Existing credits at this bank through repayment",
+        "provide a guarantor or additional debtor"
+      ]
+    }
+  },
+  {
+    "idx": 282,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 34,
+      "reason": "Very affordable small loan with solid repayment history is offset by weak liquid assets and no checking account.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful liquid savings above 100 DM",
+        "open and maintain a checking account",
+        "stay longer in the current job",
+        "provide a guarantor or additional co-obligor"
+      ]
+    }
+  },
+  {
+    "idx": 251,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 34,
+      "reason": "Very small, short-term loan is supported by assets and housing, despite weak account status and adverse credit history.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing existing issues and avoiding new adverse entries",
+        "maintain a positive checking account balance",
+        "reduce existing credits at this bank",
+        "move into a more skilled and stable job"
+      ]
+    }
+  },
+  {
+    "idx": 229,
+    "group": "random",
+    "score": 41.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 41,
+      "reason": "Small, short-term loan with solid employment and repayment history is offset by very weak liquid reserves.",
+      "top_factors": [
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build Savings / bonds well above 100 DM",
+        "open and maintain a Checking account with stable balances",
+        "keep Present employment longer and document steady income",
+        "apply with a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 143,
+    "group": "random",
+    "score": 41.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 41,
+      "reason": "Good credit history and stable profile are offset by negative checking balance and almost no liquid savings.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build a positive checking account balance",
+        "accumulate more savings / bonds before applying",
+        "stay longer in Present employment",
+        "apply for a shorter or smaller loan with lower total exposure"
+      ]
+    }
+  },
+  {
+    "idx": 755,
+    "group": "random",
+    "score": 46.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 46,
+      "reason": "Strong job stability and low payment burden are offset by past payment delays and weak banking profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "open and maintain a checking account with regular salary inflows",
+        "build stronger documented assets or property ownership",
+        "reduce reliance on existing credits at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 105,
+    "group": "random",
+    "score": 46.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 46,
+      "reason": "Thin liquid reserves and very short job tenure weaken an otherwise modest, well-performing credit request.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 1-3 years",
+        "build visible savings or bonds before applying",
+        "open and maintain a checking account",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 693,
+    "group": "random",
+    "score": 44.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 44,
+      "reason": "Solid past repayment and homeownership help, but short job tenure and thin liquid assets weaken the application.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "Keep the same job for at least 2 years",
+        "Build larger liquid reserves in checking account and savings / bonds",
+        "Reduce the loan Amount or shorten reliance on credit for radio/television",
+        "Provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 759,
+    "group": "random",
+    "score": 28.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 28,
+      "reason": "Strong collateral, clean repayment history, and a guarantor outweigh weak liquid balances.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings above 100 DM",
+        "open and maintain a checking account",
+        "stay longer in the current job",
+        "reduce reliance on a guarantor with stronger own liquidity"
+      ]
+    }
+  },
+  {
+    "idx": 914,
+    "group": "random",
+    "score": 22.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 22,
+      "reason": "Strong employment stability, assets, and clean repayment history outweigh the lack of a checking account.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with regular salary inflows",
+        "provide stronger liquidity reserves beyond 1000 DM or more",
+        "remove foreign worker status risk through permanent local residency",
+        "add a guarantor or secondary liable party"
+      ]
+    }
+  },
+  {
+    "idx": 559,
+    "group": "random",
+    "score": 43.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 43,
+      "reason": "Good repayment history and stable employment help, but overdrawn checking and almost no savings weaken the file.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring the checking account into positive balance and show stable account conduct",
+        "build meaningful savings well above 100 DM",
+        "reduce or refinance other installment debt with the bank",
+        "extend continuous employment tenure further"
+      ]
+    }
+  },
+  {
+    "idx": 90,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 34,
+      "reason": "Stable employment and strong collateral offset very weak liquid reserves and an overdrawn checking account.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring the checking account into positive balance",
+        "build meaningful savings reserves",
+        "reduce existing credits at this bank",
+        "maintain longer continuous employment"
+      ]
+    }
+  },
+  {
+    "idx": 605,
+    "group": "random",
+    "score": 36.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 36,
+      "reason": "Small, short-term loan with solid repayment history is offset by very short employment tenure and minimal liquid savings.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "Keep the same job for at least 1-2 years",
+        "Build savings / bonds above 1000 DM",
+        "Provide a guarantor or additional debtor",
+        "Establish a telephone connection"
+      ]
+    }
+  },
+  {
+    "idx": 433,
+    "group": "random",
+    "score": 82.0,
+    "decision": "reject",
+    "n_advice": 5,
+    "label": "1",
+    "llm_result": {
+      "score": 82,
+      "reason": "Unemployment combined with negative checking balance and critical credit history makes repayment capacity highly uncertain.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Existing credits at this bank",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and maintain it for at least 12 months",
+        "clear delinquencies and establish a clean recent credit history",
+        "bring checking account into positive balance and keep regular inflows",
+        "build savings above 1000 DM",
+        "reduce existing credits at this bank before applying"
+      ]
+    }
+  },
+  {
+    "idx": 33,
+    "group": "random",
+    "score": 38.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 38,
+      "reason": "Stable repayment history and homeownership help, but limited liquid assets and multiple existing credits add moderate risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Existing credits at this bank",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "reduce or fully repay existing credits at this bank",
+        "build higher checking account and savings balances",
+        "remain in Present employment for over 4 years",
+        "provide a guarantor or additional co-debtor"
+      ]
+    }
+  },
+  {
+    "idx": 31,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 42,
+      "reason": "Good assets and repayment history support the file, but very short current employment and a business-purpose loan add noticeable risk.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Purpose",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the current job for at least 1-2 years",
+        "apply for a non-business purpose loan with clearer income support",
+        "build a stronger checking account balance above 200 DM",
+        "reduce or close other installment debt before applying"
+      ]
+    }
+  },
+  {
+    "idx": 96,
+    "group": "random",
+    "score": 72.0,
+    "decision": "reject",
+    "n_advice": 5,
+    "label": "2",
+    "llm_result": {
+      "score": 72,
+      "reason": "Large business loan with very low assets and short job tenure creates elevated repayment risk.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "Keep the same job for at least 2 to 4 years",
+        "Reduce the loan amount substantially",
+        "Build meaningful savings and liquid reserves",
+        "Provide collateral or acquire property ownership",
+        "Add a strong guarantor or co-borrower"
+      ]
+    }
+  },
+  {
+    "idx": 224,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Past payment delays and lack of liquid banking assets outweigh otherwise stable housing and moderate loan burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean repayment record with no further delays",
+        "build verifiable savings reserves",
+        "open and maintain a regular checking account",
+        "stay longer in the current job"
+      ]
+    }
+  },
+  {
+    "idx": 239,
+    "group": "random",
+    "score": 67.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 67,
+      "reason": "Weak liquidity and adverse credit history outweigh the small, short-term loan request.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing past issues and showing clean repayment behavior",
+        "open a checking account and maintain stable transaction activity",
+        "build Savings / bonds well above 100 DM",
+        "keep Present employment longer to show more stability"
+      ]
+    }
+  },
+  {
+    "idx": 518,
+    "group": "random",
+    "score": 76.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 76,
+      "reason": "Weak liquidity, very short employment tenure, and critical credit history outweigh otherwise stable residence and low installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build a clean repayment record and resolve the critical credit history",
+        "stay in the same job for at least 2 years",
+        "accumulate meaningful savings above 1000 DM",
+        "open and maintain a checking account with regular salary inflows"
+      ]
+    }
+  },
+  {
+    "idx": 617,
+    "group": "random",
+    "score": 72.0,
+    "decision": "reject",
+    "n_advice": 5,
+    "label": "1",
+    "llm_result": {
+      "score": 72,
+      "reason": "Weak liquidity and prior payment delays outweigh the otherwise qualified employment profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Current job",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "build meaningful savings and maintain a higher checking account balance",
+        "reduce the loan amount or shorten the requested duration",
+        "show longer stable employment in the current role",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 28,
+    "group": "random",
+    "score": 18.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 18,
+      "reason": "Very small loan, strong assets, and clean repayment history at this bank outweigh minor profile risks.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "stay in the same job for more than 4 years",
+        "provide a telephone contact",
+        "build an even larger savings buffer",
+        "move from renting to owner-occupied housing"
+      ]
+    }
+  },
+  {
+    "idx": 575,
+    "group": "random",
+    "score": 38.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 38,
+      "reason": "Small, short-term loan with strong repayment history is offset by very low liquid savings and a low-skill employment profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Current job",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings above 100 DM",
+        "move into a skilled or better-paid job",
+        "increase checking account balance well above 200 DM",
+        "reduce the number of existing credits at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 204,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 58,
+      "reason": "Very low liquid funds and an overdrawn checking account weaken an otherwise small, affordable loan request.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring checking account into positive balance",
+        "build savings above 1000 DM",
+        "provide a guarantor or other debtor",
+        "maintain longer employment tenure with the same employer"
+      ]
+    }
+  },
+  {
+    "idx": 734,
+    "group": "random",
+    "score": 31.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 31,
+      "reason": "Strong repayment history and savings offset the lack of a checking account and only moderate job tenure.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with stable inflows",
+        "build longer continuous employment history with the current employer",
+        "increase liquid savings beyond current levels",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 666,
+    "group": "random",
+    "score": 79.0,
+    "decision": "reject",
+    "n_advice": 5,
+    "label": "1",
+    "llm_result": {
+      "score": 79,
+      "reason": "Unemployment, very weak liquid reserves, and troubled credit history outweigh the support from home ownership and a co-applicant.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and maintain it for a meaningful period",
+        "resolve past credit issues and show clean recent repayment history",
+        "build larger liquid savings before reapplying",
+        "reduce existing outside debts and installment obligations",
+        "document stronger income support from the co-applicant"
+      ]
+    }
+  },
+  {
+    "idx": 719,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 62,
+      "reason": "Strong housing and liquidity are offset by a critical credit history and no savings buffer.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing existing problem accounts and showing clean repayment behavior",
+        "build meaningful savings or bonds as a cash buffer",
+        "maintain Present employment longer in the current role",
+        "reduce reliance on existing credits before applying again"
+      ]
+    }
+  },
+  {
+    "idx": 987,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Good account status and home ownership help, but very short employment tenure and weak liquid savings raise repayment risk.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "stay in the current job for at least 2 years",
+        "build savings well above 100 DM before applying",
+        "reduce the loan amount or shorten the business exposure",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 430,
+    "group": "random",
+    "score": 91.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 91,
+      "reason": "Very weak repayment capacity due to unemployment, negative checking balance, and critical credit history despite the small loan amount.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable full-time employment and maintain it for at least 12 months",
+        "resolve past credit issues and show clean recent repayment behavior",
+        "build positive checking balances and emergency savings above 1000 DM",
+        "reduce outstanding obligations at this bank before applying again"
+      ]
+    }
+  },
+  {
+    "idx": 226,
+    "group": "random",
+    "score": 54.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 54,
+      "reason": "Stable job and owner-occupied housing help, but lack of liquid assets and no checking account weaken the profile.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings well above 100 DM",
+        "open and maintain a checking account with stable inflows",
+        "extend Present employment beyond 4 years",
+        "reduce reliance on existing credits at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 460,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 42,
+      "reason": "Good repayment history and low installment burden are offset by very weak liquid reserves and short job tenure.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build savings above 1000 DM before applying",
+        "stay in the current job for at least 1-3 years",
+        "open and maintain a checking account with regular salary inflows",
+        "reduce the loan amount or make a down payment"
+      ]
+    }
+  },
+  {
+    "idx": 604,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 34,
+      "reason": "Good repayment history and stable profile offset weak liquid reserves and no checking account.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build savings / bonds well above 100 DM",
+        "open and maintain a checking account with regular inflows",
+        "extend Present employment beyond 4 years",
+        "reduce the loan Duration or request a smaller Amount"
+      ]
+    }
+  },
+  {
+    "idx": 285,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 62,
+      "reason": "Weak liquidity and a critical credit history outweigh the modest loan size and home ownership.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record and resolve the critical credit history",
+        "stay in the current job for at least a few years",
+        "build larger checking and savings balances before applying",
+        "reduce the requested loan amount or provide a guarantor"
+      ]
+    }
+  },
+  {
+    "idx": 829,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 62,
+      "reason": "Weak liquid reserves and overdrafted checking outweigh otherwise stable employment and solid repayment history.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring the checking account into positive balance",
+        "build meaningful savings / bonds reserves",
+        "provide collateral or acquire property",
+        "add a reliable guarantor or co-borrower"
+      ]
+    }
+  },
+  {
+    "idx": 891,
+    "group": "random",
+    "score": 68.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 68,
+      "reason": "Strong employment and homeownership are outweighed by very weak liquidity and adverse credit history with multiple existing obligations.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Existing credits at this bank",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing delinquencies and stabilizing repayment behavior",
+        "build positive liquidity with a non-negative checking account and meaningful savings",
+        "reduce existing credits at this bank and other installment plans before applying",
+        "provide stronger business-purpose cash flow documentation or apply for a non-business purpose loan"
+      ]
+    }
+  },
+  {
+    "idx": 7,
+    "group": "random",
+    "score": 31.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 31,
+      "reason": "Strong repayment history and stable employment outweigh the thin liquid banking profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with regular salary inflows",
+        "build higher liquid savings above 1000 DM",
+        "provide a guarantor or additional co-obligor",
+        "reduce the requested loan amount or shorten outstanding exposure at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 778,
+    "group": "random",
+    "score": 38.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 38,
+      "reason": "Strong collateral and repayment history offset weak liquidity and a slightly riskier borrower profile.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build positive account balances and avoid overdraft",
+        "accumulate more savings / bonds as liquidity buffer",
+        "maintain employment longer in the same job",
+        "apply with a lower loan amount or shorter exposure"
+      ]
+    }
+  },
+  {
+    "idx": 826,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 62,
+      "reason": "Strong employment stability is outweighed by very weak liquidity and a problematic prior credit history.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "resolve the critical account issues and establish a clean recent credit history",
+        "build positive checking balances and meaningful savings reserves",
+        "reduce existing credits at this bank before taking new borrowing",
+        "provide a guarantor or additional collateral beyond the car"
+      ]
+    }
+  },
+  {
+    "idx": 164,
+    "group": "random",
+    "score": 72.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 72,
+      "reason": "Unemployment and almost no liquid assets outweigh the positive repayment history and low installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and document regular income",
+        "build meaningful savings reserves above 1000 DM",
+        "reduce existing bank debt before applying",
+        "provide collateral or acquire property assets"
+      ]
+    }
+  },
+  {
+    "idx": 715,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 42,
+      "reason": "Stable employment and clean repayment history help, but very low liquid assets and a fairly large 60-month car loan add risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings reserves before applying",
+        "reduce the loan amount with a larger down payment",
+        "show higher checking account balances over several months",
+        "shorten the loan duration with stronger affordability evidence"
+      ]
+    }
+  },
+  {
+    "idx": 984,
+    "group": "random",
+    "score": 46.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 46,
+      "reason": "Thin liquidity and an overdrawn checking account weaken an otherwise acceptable employed borrower profile.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful cash reserves and positive account balances",
+        "keep the current job longer to show more stable employment",
+        "reduce the requested amount or shorten exposure with a larger down payment",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 349,
+    "group": "random",
+    "score": 52.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 52,
+      "reason": "Past payment delays and weak liquid banking profile outweigh otherwise modest loan size and strong asset ownership.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "open and maintain a checking account with regular salary inflows",
+        "build savings well above 500 DM",
+        "stay in stable employment longer or move into a skilled job"
+      ]
+    }
+  },
+  {
+    "idx": 965,
+    "group": "random",
+    "score": 38.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 38,
+      "reason": "Very small, short loan with clean repayment history, but weak liquidity and unstable employment raise moderate risk.",
+      "top_factors": [
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the current job for at least one year",
+        "build savings above 1000 DM",
+        "maintain a higher checking account balance",
+        "move into a more skilled and stable job"
+      ]
+    }
+  },
+  {
+    "idx": 160,
+    "group": "random",
+    "score": 68.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 68,
+      "reason": "Weak banking relationship and adverse credit history outweigh the small, short-term loan request.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent credit record and resolve adverse existing credit issues",
+        "open and maintain a stable checking account with regular salary inflows",
+        "build verifiable savings reserves",
+        "reduce existing credits at this bank before applying again"
+      ]
+    }
+  },
+  {
+    "idx": 221,
+    "group": "random",
+    "score": 43.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 43,
+      "reason": "Small, affordable loan with good past repayment is offset by very short employment and minimal liquid savings.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 2 years",
+        "build savings above 1000 DM",
+        "increase checking account balance well above 200 DM",
+        "move into a more stable skilled job"
+      ]
+    }
+  },
+  {
+    "idx": 782,
+    "group": "random",
+    "score": 36.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 36,
+      "reason": "Strong assets and affordability are offset mainly by adverse credit history and lack of a checking account.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history with clean repayment performance and no critical account record",
+        "open and maintain a stable checking account with regular salary inflows",
+        "reduce or close existing outside credits",
+        "provide additional liquid savings beyond 1000 DM or a guarantor"
+      ]
+    }
+  },
+  {
+    "idx": 345,
+    "group": "random",
+    "score": 41.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 41,
+      "reason": "Low installment burden and good repayment history help, but very short employment and minimal savings weaken the application.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 1-2 years",
+        "build meaningful savings above 1000 DM",
+        "move into a more stable or skilled job",
+        "provide a stronger income profile relative to the loan"
+      ]
+    }
+  },
+  {
+    "idx": 991,
+    "group": "random",
+    "score": 78.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 78,
+      "reason": "Weak banking profile and adverse credit history outweigh the modest loan size and homeownership.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean repayment record and resolve the critical credit history",
+        "keep stable employment for at least 12 to 24 months",
+        "build verifiable savings and maintain an active checking account",
+        "reduce existing credits at this bank before applying again"
+      ]
+    }
+  },
+  {
+    "idx": 95,
+    "group": "random",
+    "score": 18.0,
+    "decision": "approve",
+    "n_advice": 2,
+    "label": "1",
+    "llm_result": {
+      "score": 18,
+      "reason": "Strong stability, assets, and clean repayment history outweigh the low checking balance and foreign worker status.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "increase checking account balance above 200 DM",
+        "demonstrate non-foreign worker status or stronger local permanence"
+      ]
+    }
+  },
+  {
+    "idx": 390,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 42,
+      "reason": "Small, short-term loan and solid repayment record are offset by very weak liquid reserves and no checking account.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build savings / bonds well above 100 DM",
+        "open and maintain a checking account",
+        "reduce existing credits at this bank from 2 to 1 or none",
+        "provide a guarantor or other debtor support"
+      ]
+    }
+  },
+  {
+    "idx": 100,
+    "group": "random",
+    "score": 68.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 68,
+      "reason": "Past repayment problems and weak liquid reserves outweigh otherwise solid employment stability.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "build meaningful savings reserves before applying",
+        "increase checking account balances consistently",
+        "reduce existing bank credit obligations"
+      ]
+    }
+  },
+  {
+    "idx": 368,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Thin financial reserves and very short employment history outweigh an otherwise modest, well-performing credit profile.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "stay in the same job for at least 1-2 years",
+        "build positive checking account balances and emergency savings",
+        "add a guarantor or other debtors with solid income",
+        "reduce the loan amount or shorten exposure with a larger down payment"
+      ]
+    }
+  },
+  {
+    "idx": 868,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Stable employment and owner-occupied housing help, but weak liquid assets and adverse credit history materially raise default risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing problematic accounts and avoiding new delinquencies",
+        "build Savings / bonds well above 100 DM",
+        "open and maintain a Checking account",
+        "reduce existing credits at this bank and other installment plans before applying"
+      ]
+    }
+  },
+  {
+    "idx": 353,
+    "group": "random",
+    "score": 82.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 82,
+      "reason": "Unemployment combined with critical credit history and no visible liquid assets makes repayment capacity highly uncertain.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and show several months of continuous income",
+        "clear or regularize the critical account and improve credit history",
+        "build documented savings or liquid reserves",
+        "provide a guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 619,
+    "group": "random",
+    "score": 41.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 41,
+      "reason": "Moderate risk due to young age and limited assets, partly offset by clean repayment history and a co-applicant.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Age",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build larger savings and checking balances before applying",
+        "stay in stable employment longer",
+        "reduce the requested loan amount or shorten the exposure with a stronger down payment",
+        "provide a stronger guarantor or co-applicant with documented income"
+      ]
+    }
+  },
+  {
+    "idx": 271,
+    "group": "random",
+    "score": 26.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 26,
+      "reason": "Low payment burden and stable employment are strong, but the lack of liquid banking and savings relationships weakens transparency.",
+      "top_factors": [
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with regular salary inflows",
+        "build verifiable savings / bonds reserves",
+        "document additional liquid assets beyond life insurance",
+        "extend stable employment tenure further"
+      ]
+    }
+  },
+  {
+    "idx": 827,
+    "group": "random",
+    "score": 68.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 68,
+      "reason": "Stable employment and property help, but negative checking balance and critical credit history create meaningful repayment risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "clear existing delinquencies and establish a clean recent credit history",
+        "bring checking account into positive balance and maintain liquidity",
+        "build savings / bonds well above 100 DM",
+        "reduce existing credits at this bank and other installment obligations"
+      ]
+    }
+  },
+  {
+    "idx": 45,
+    "group": "random",
+    "score": 82.0,
+    "decision": "reject",
+    "n_advice": 5,
+    "label": "2",
+    "llm_result": {
+      "score": 82,
+      "reason": "Very weak liquidity and adverse credit history outweigh stable employment and low installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing delinquencies and avoiding existing problem credits",
+        "build Savings / bonds well above 100 DM",
+        "bring Checking account into positive balance and maintain it there",
+        "provide a guarantor or additional collateral such as property",
+        "reduce existing credits at this bank and other installment plans before applying"
+      ]
+    }
+  },
+  {
+    "idx": 748,
+    "group": "random",
+    "score": 48.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 48,
+      "reason": "Thin liquidity and very short employment weaken an otherwise small, well-structured loan request.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the current job for at least 1-2 years",
+        "build positive checking account balances and emergency savings",
+        "provide proof of stable income and regular salary credits",
+        "offer a guarantor or additional liquid collateral"
+      ]
+    }
+  },
+  {
+    "idx": 471,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 58,
+      "reason": "Young age, short employment tenure, and limited liquid reserves weaken an otherwise acceptable repayment profile.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Age",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 2 years",
+        "build savings / bonds above 1000 DM",
+        "maintain a higher checking account balance consistently",
+        "reduce the loan amount or shorten the requested exposure with a larger down payment"
+      ]
+    }
+  },
+  {
+    "idx": 550,
+    "group": "random",
+    "score": 71.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 71,
+      "reason": "Weak asset position and adverse credit history outweigh otherwise stable employment and low stated installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing problematic accounts and showing clean repayment behavior",
+        "build Savings / bonds to demonstrate liquidity reserves",
+        "establish a checking account with regular salary inflows",
+        "reduce Existing credits at this bank before taking new debt"
+      ]
+    }
+  },
+  {
+    "idx": 128,
+    "group": "random",
+    "score": 28.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 28,
+      "reason": "Small, short-term loan with solid repayment history is offset by very low liquid reserves.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build a larger cash buffer in checking account and savings / bonds",
+        "stay longer in Present employment",
+        "provide a guarantor or other debtors support",
+        "maintain a higher checking account balance consistently"
+      ]
+    }
+  },
+  {
+    "idx": 388,
+    "group": "random",
+    "score": 79.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 79,
+      "reason": "Unemployment combined with critical credit history and minimal liquid assets makes repayment capacity highly uncertain.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "secure stable full-time employment and keep it for at least 12 months",
+        "resolve past credit problems and show clean recent repayment behavior",
+        "build meaningful savings reserves above 1000 DM",
+        "reduce existing credits and store installment obligations"
+      ]
+    }
+  },
+  {
+    "idx": 81,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 58,
+      "reason": "Thin liquid reserves and very short employment tenure weaken an otherwise acceptable repayment profile.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 2 more years",
+        "build meaningful savings or bonds reserves",
+        "open and maintain a checking account with regular inflows",
+        "reduce existing credits at this bank before applying"
+      ]
+    }
+  },
+  {
+    "idx": 566,
+    "group": "random",
+    "score": 61.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 61,
+      "reason": "Past payment delays and thin liquid reserves outweigh an otherwise stable employment profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "build higher liquid reserves in checking and savings",
+        "reduce existing credits at this bank before applying",
+        "provide a guarantor or additional debtor"
+      ]
+    }
+  },
+  {
+    "idx": 301,
+    "group": "random",
+    "score": 68.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 68,
+      "reason": "Unemployment with no checking account and minimal savings outweigh the small, short-term loan and solid past repayment history.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and show recent income proof",
+        "build savings above 100 DM and maintain a checking account",
+        "add a strong guarantor or co-borrower",
+        "demonstrate longer-term liquid reserves despite unemployment"
+      ]
+    }
+  },
+  {
+    "idx": 850,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 34,
+      "reason": "Small, affordable loan and strong repayment history are offset by very weak liquid funds and an overdrawn checking account.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "bring checking account above zero and maintain a stable positive balance",
+        "build savings / bonds above 100 DM, ideally substantially higher",
+        "provide a guarantor or additional debtor support",
+        "reduce reliance on other installment plans at stores"
+      ]
+    }
+  },
+  {
+    "idx": 644,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Weak liquidity and adverse credit history outweigh the modest loan size and stable employment.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing problematic accounts and showing clean repayment behavior",
+        "build meaningful savings reserves well above 100 DM",
+        "open and maintain a checking account with stable inflows",
+        "reduce existing credits at this bank before taking new debt"
+      ]
+    }
+  },
+  {
+    "idx": 634,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 58,
+      "reason": "Very thin financial reserves and short employment history weaken an otherwise small, short-term loan request.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "keep the same job for at least 2 years",
+        "build savings well above 100 DM",
+        "open and maintain a checking account",
+        "reduce reliance on existing credits at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 907,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 34,
+      "reason": "Strong collateral and repayment history offset weak liquidity and limited applicant quality.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build positive checking account balances",
+        "accumulate meaningful savings / bonds reserves",
+        "move into a more skilled and higher-quality job category",
+        "apply with lower leverage or a smaller loan amount"
+      ]
+    }
+  },
+  {
+    "idx": 883,
+    "group": "random",
+    "score": 41.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 41,
+      "reason": "Stable employment and strong assets support repayment, but the critical credit history and lack of liquid savings raise concern.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing or seasoning past problematic accounts",
+        "build documented savings or bonds as a liquidity buffer",
+        "reduce existing credits at this bank before applying",
+        "maintain the same stable employment and document ongoing income"
+      ]
+    }
+  },
+  {
+    "idx": 371,
+    "group": "random",
+    "score": 39.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 39,
+      "reason": "Strong repayment history and asset ownership are offset by weak liquid reserves and limited banking relationship depth.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Property",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build verifiable savings or bonds before applying",
+        "open and maintain a checking account with stable incoming salary",
+        "remain in the same job longer to strengthen Present employment",
+        "provide a guarantor or additional co-debtor"
+      ]
+    }
+  },
+  {
+    "idx": 592,
+    "group": "random",
+    "score": 66.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 66,
+      "reason": "Past payment delays and weak liquid reserves outweigh the modest loan size and manageable installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "build meaningful savings reserves before applying",
+        "maintain higher checking account balances consistently",
+        "stay longer in the current job"
+      ]
+    }
+  },
+  {
+    "idx": 197,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Weak liquid reserves and adverse credit history outweigh the small, short-term loan request.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing problematic existing debts and showing clean repayment behavior",
+        "build savings above 100 DM and document a stronger cash buffer",
+        "open and maintain a checking account with stable inflows",
+        "stay in the current job longer to strengthen employment stability"
+      ]
+    }
+  },
+  {
+    "idx": 722,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 34,
+      "reason": "Very small, short-term loan with good prior repayment history, but thin employment stability and modest liquidity add some risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "stay in the same job for more than one year",
+        "build a stronger checking account balance above 200 DM",
+        "reduce reliance on other installment plans",
+        "provide a guarantor or additional co-debtor"
+      ]
+    }
+  },
+  {
+    "idx": 72,
+    "group": "random",
+    "score": 71.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 71,
+      "reason": "Weak liquidity and adverse credit history outweigh the small, short-term loan request.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing past issues and avoiding new delinquencies",
+        "open and maintain a checking account with stable inflows",
+        "build measurable savings reserves",
+        "reduce existing credits at this bank and other outstanding obligations"
+      ]
+    }
+  },
+  {
+    "idx": 47,
+    "group": "random",
+    "score": 31.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 31,
+      "reason": "Stable employment and clean repayment history outweigh the thin banking relationship and limited liquid reserves.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with regular salary inflows",
+        "build higher liquid savings above 1000 DM",
+        "provide additional collateral beyond car or other property",
+        "reduce the loan duration or request a smaller amount"
+      ]
+    }
+  },
+  {
+    "idx": 678,
+    "group": "random",
+    "score": 61.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 61,
+      "reason": "Long loan duration and thin liquid reserves outweigh otherwise acceptable repayment history and stable housing.",
+      "top_factors": [
+        {
+          "attribute": "Duration",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "reduce the loan duration substantially",
+        "build higher liquid savings and checking balances",
+        "keep the current job longer before applying",
+        "apply with a guarantor or co-borrower"
+      ]
+    }
+  },
+  {
+    "idx": 234,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 34,
+      "reason": "Small loan size, good repayment history, and strong collateral indicators outweigh weak liquid savings and modest employment profile.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Other debtors / guarantors",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build higher savings / bonds balances before applying",
+        "move into a more stable or skilled job with longer Present employment",
+        "maintain a stronger checking account balance",
+        "apply for a shorter or similarly small loan only after more residence stability"
+      ]
+    }
+  },
+  {
+    "idx": 792,
+    "group": "random",
+    "score": 32.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 32,
+      "reason": "Strong employment stability and clean repayment history outweigh weak liquid-asset signals.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build verifiable savings or bonds reserves",
+        "open and maintain a checking account with regular salary inflows",
+        "provide additional collateral beyond car or other property",
+        "reduce dependence ratio by increasing documented disposable income"
+      ]
+    }
+  },
+  {
+    "idx": 297,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Very weak asset and banking profile offsets the small, short loan and previously clean repayment record.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build savings and show liquid reserves",
+        "keep the same job for at least one year",
+        "open and maintain a checking account",
+        "provide a guarantor or co-borrower"
+      ]
+    }
+  },
+  {
+    "idx": 82,
+    "group": "random",
+    "score": 31.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 31,
+      "reason": "Stable employment and strong repayment history outweigh weak liquid banking relationships for this small, affordable loan.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "open and maintain a checking account with regular salary inflows",
+        "build higher liquid savings above 1000 DM",
+        "reduce reliance on other installment plans from stores",
+        "provide a stronger domestic residency profile than foreign worker status"
+      ]
+    }
+  },
+  {
+    "idx": 876,
+    "group": "random",
+    "score": 52.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 52,
+      "reason": "Prior credit problems and multiple existing bank credits offset an otherwise small, short-term loan with decent asset backing.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Existing credits at this bank",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by demonstrating clean repayment behavior over time",
+        "reduce Existing credits at this bank before applying",
+        "maintain Present employment longer in the same job",
+        "build Checking account balances above 200 DM"
+      ]
+    }
+  },
+  {
+    "idx": 979,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 62,
+      "reason": "Thin liquidity and prior payment delays outweigh the small, affordable loan and stable employment.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no delays",
+        "build meaningful savings above 1000 DM",
+        "open and maintain a regular checking account",
+        "provide a guarantor or additional co-debtor"
+      ]
+    }
+  },
+  {
+    "idx": 888,
+    "group": "random",
+    "score": 62.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 62,
+      "reason": "Large business loan with very low liquid reserves and a short employment record raises repayment risk despite decent prior credit behavior.",
+      "top_factors": [
+        {
+          "attribute": "Amount",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings before applying",
+        "reduce the loan amount substantially",
+        "show longer stable employment with the same employer",
+        "provide a strong guarantor or additional collateral"
+      ]
+    }
+  },
+  {
+    "idx": 104,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Thin liquid reserves and a critical credit history outweigh the modest loan size and stable employment.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 1
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing existing problem accounts and showing clean recent repayment behavior",
+        "build larger savings / bonds reserves",
+        "maintain stable employment for several more years",
+        "reduce reliance on existing credits before applying"
+      ]
+    }
+  },
+  {
+    "idx": 948,
+    "group": "random",
+    "score": 61.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 61,
+      "reason": "Good repayment history and low installment burden are outweighed by current unemployment and lack of liquid reserves.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "secure stable employment and document several months of income",
+        "build verifiable savings or liquid reserves",
+        "provide additional collateral or a strong guarantor",
+        "maintain an active checking account with regular inflows"
+      ]
+    }
+  },
+  {
+    "idx": 955,
+    "group": "random",
+    "score": 34.0,
+    "decision": "approve",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 34,
+      "reason": "Strong repayment profile and low burden offset very weak liquid balances.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 3
+        }
+      ],
+      "counterfactual": [
+        "build positive checking account balances",
+        "accumulate larger savings / bonds reserves",
+        "stay longer in Present employment",
+        "apply with a lower-risk personal profile than foreign worker"
+      ]
+    }
+  },
+  {
+    "idx": 465,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 42,
+      "reason": "Good repayment history and stable employment help, but minimal liquid assets and multiple existing obligations increase risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Existing credits at this bank",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings well above 100 DM",
+        "reduce or fully repay existing credits and store installment plans",
+        "open and maintain a checking account with regular inflows",
+        "show longer residence stability at the current address"
+      ]
+    }
+  },
+  {
+    "idx": 651,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Weak liquid reserves and an overdrawn checking account outweigh otherwise stable employment and prior repayment behavior.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings and liquid reserves before applying",
+        "bring the checking account into positive balance and maintain it",
+        "provide collateral or acquire property assets",
+        "reduce the requested amount or shorten reliance on unsecured borrowing"
+      ]
+    }
+  },
+  {
+    "idx": 855,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Stable employment and owner-occupied housing help, but weak liquid reserves and prior payment delays materially increase risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        },
+        {
+          "attribute": "Housing",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "establish a clean recent repayment record with no further delays",
+        "build meaningful savings reserves above 1000 DM",
+        "open and maintain a checking account with stable inflows",
+        "reduce or consolidate existing credits at this bank"
+      ]
+    }
+  },
+  {
+    "idx": 374,
+    "group": "random",
+    "score": 69.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 69,
+      "reason": "Weak liquidity and adverse credit history outweigh otherwise stable employment and low installment burden.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing problematic existing debts and maintaining clean repayment behavior",
+        "build meaningful savings or bonds as a liquidity buffer",
+        "open and maintain a regular checking account with visible cash flow",
+        "provide collateral or acquire property assets"
+      ]
+    }
+  },
+  {
+    "idx": 167,
+    "group": "random",
+    "score": 72.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "2",
+    "llm_result": {
+      "score": 72,
+      "reason": "Unemployment combined with negative checking balance and almost no savings makes repayment capacity uncertain despite a small loan and good past repayment.",
+      "top_factors": [
+        {
+          "attribute": "Present employment",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "obtain stable employment and show several months of continuous income",
+        "bring checking account into positive balance and avoid overdrafts",
+        "build a meaningful savings buffer above 100 DM",
+        "add a strong guarantor or co-borrower with stable income"
+      ]
+    }
+  },
+  {
+    "idx": 380,
+    "group": "random",
+    "score": 52.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 52,
+      "reason": "Very small, short-term loan is offset by weak banking profile and adverse credit history.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve Credit history by clearing past issues and avoiding further delinquencies",
+        "open a checking account and show stable account turnover",
+        "build Savings / bonds well above 500 DM",
+        "keep Present employment longer in a more stable or skilled role"
+      ]
+    }
+  },
+  {
+    "idx": 364,
+    "group": "random",
+    "score": 42.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 42,
+      "reason": "Very low liquidity and thin banking profile are the main weaknesses despite a small, short-term loan and good repayment history.",
+      "top_factors": [
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Credit history",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Amount",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "build meaningful savings above 100 DM",
+        "open and maintain a checking account with regular salary inflows",
+        "stay in the same job longer to extend employment history",
+        "provide a guarantor or additional co-debtor"
+      ]
+    }
+  },
+  {
+    "idx": 215,
+    "group": "random",
+    "score": 58.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 58,
+      "reason": "Stable employment and homeownership help, but adverse credit history and lack of liquid banking assets materially raise risk.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Checking account",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing past issues and showing clean recent repayment",
+        "build verifiable savings or bonds as a liquidity buffer",
+        "open and maintain a checking account with stable inflows",
+        "reduce loan duration or amount to lower exposure"
+      ]
+    }
+  },
+  {
+    "idx": 687,
+    "group": "random",
+    "score": 48.0,
+    "decision": "reject",
+    "n_advice": 4,
+    "label": "1",
+    "llm_result": {
+      "score": 48,
+      "reason": "Stable employment and low payment burden help, but adverse credit history and lack of savings materially weaken the application.",
+      "top_factors": [
+        {
+          "attribute": "Credit history",
+          "direction": "risk",
+          "weight": 3
+        },
+        {
+          "attribute": "Installment as % of disposable income",
+          "direction": "strength",
+          "weight": 3
+        },
+        {
+          "attribute": "Savings / bonds",
+          "direction": "risk",
+          "weight": 2
+        },
+        {
+          "attribute": "Present employment",
+          "direction": "strength",
+          "weight": 2
+        }
+      ],
+      "counterfactual": [
+        "improve credit history by clearing problematic accounts and showing clean repayment behavior",
+        "build savings / bonds to demonstrate liquidity reserves",
+        "reduce existing credits at this bank and other outstanding obligations",
+        "maintain the same job longer with documented stable income"
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+Metric,Value
+Sample size,100
+Approved (score<50),22
+Rejected (score≥50),78
+Approval rate,0.220
+Mean score,51.070
+Median score,52.000
+Min score,18.000
+Max score,91.000
+Total counterfactuals,403
+Avg counterfactuals per case,4.030
